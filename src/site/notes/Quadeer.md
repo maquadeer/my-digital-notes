@@ -8,7 +8,7 @@
  <hr>
 
 # BOOKS
-My book library [[books\|books]]
+Do visit my [[books\|books]]
 
 
 
