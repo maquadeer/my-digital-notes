@@ -6,6 +6,11 @@
 
 Where books find you! 📚✨
 
+
+> [!NOTE] Note
+> This rating is based on my personal experience
+
+
 | **Book Title**             | *Author*               | *Genre*             | *Published Year* | *Reading Status* |
 |---------------------------|----------------------|--------------------|----------------|----------------|
 | **Rich Dad Poor Dad**     | Robert T. Kiyosaki    | Personal Finance   | 1997           | Read           |
