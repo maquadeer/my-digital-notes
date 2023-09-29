@@ -211,5 +211,5 @@ This `.vimrc` file provides various settings and key mappings to enhance your Vi
 
 
 > [!NOTE] Note
-> Also checkout my other setup files -> [[Quadeer\|Home]]
+> Also checkout my other setup files -> [[Home\|Home]]
 
