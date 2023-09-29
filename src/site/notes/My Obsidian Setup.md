@@ -4,7 +4,7 @@
 
 
 > [!TIP] Getting started
-> **[Click here](https://github.com/maquadeer/obsidian-setup) to get access to my .obsidian file, paste it into your obsidian vault.** 
+> **[Click here](https://github.com/maquadeer/obsidian-setup) to get access to my .obsidian folder, paste it into your obsidian vault.** 
 
 ### Why Choose Obsidian Notes?🗒️
 
