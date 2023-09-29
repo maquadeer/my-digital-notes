@@ -13,3 +13,7 @@
 
 - save the file as 
 ```C++14_linux.sublime-build```
+
+
+> [!WARNING] Warning
+> The build might not work if the file is named incorrectly
