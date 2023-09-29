@@ -2,7 +2,10 @@
 {"dg-publish":true,"permalink":"/my-obsidian-setup/"}
 ---
 
-**[Click here](https://github.com/maquadeer/obsidian-setup) to get access to my .obsidian file, paste it into your obsidian vault.** 
+
+> [!TIP] Getting started
+> **[Click here](https://github.com/maquadeer/obsidian-setup) to get access to my .obsidian file, paste it into your obsidian vault.** 
+
 ### Why Choose Obsidian Notes?🗒️
 
 1. **Bidirectional Links**🔗: Obsidian's unique bidirectional linking feature allows you to effortlessly connect ideas. No more lost connections or forgotten insights. Everything is at your fingertips.
