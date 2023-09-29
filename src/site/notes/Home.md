@@ -16,10 +16,3 @@
 2. [[cpp 14 sublime linux setup\|c++ linux sublime setup]]
 3. [[vim setup\|My personal Vim setup]]
 <hr>
-
-
-
-
-
-
-
