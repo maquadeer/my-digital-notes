@@ -7,6 +7,58 @@
 # Basic vim setup
 ```vim
 syntax on
+filetype plugin indent on
+set modelines=0
+set number
+set ruler
+set visualbell
+set encoding=utf-8
+set wrap
+set textwidth=79
+set formatoptions=tcqrn1
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set noshiftround
+
+" Cursor motion
+set scrolloff=3
+set backspace=indent,eol,start
+set matchpairs+=<:>
+runtime! macros/matchit.vim
+nnoremap j gj
+nnoremap k gk
+set hidden
+set ttyfast
+
+" Status bar
+set laststatus=2
+
+" Last line
+set showmode
+set showcmd
+
+" Searching
+nnoremap / /\v
+vnoremap / /\v
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set showmatch
+map <leader><space> :let @/=''<cr> " clear search
+
+" Visualize tabs and newlines
+set listchars=tab:▸\ ,eol:¬
+" Uncomment this to enable by default:
+" set list " To enable by default
+" Or use your leader key + l to toggle on/off
+map <leader>l :set list!<CR> " Toggle tabs and EOL
+```
+### Here is the complete breakdown:
+```vim
+syntax on
 ```
 
 - `syntax on` enables syntax highlighting in Vim. This highlights different elements of your code with different colors to make it more readable and easier to understand.
