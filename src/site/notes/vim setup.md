@@ -2,9 +2,10 @@
 {"dg-publish":true,"permalink":"/vim-setup/"}
 ---
 
-
-
 # Basic vim setup
+> [!NOTE] Note
+> Paste the below code in vimrc file
+
 ```vim
 syntax on
 filetype plugin indent on
