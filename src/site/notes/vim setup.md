@@ -207,3 +207,8 @@ map <leader>l :set list!<CR> " Toggle tabs and EOL
 - These lines configure how tabs and newlines are visualized. They use special characters to represent tabs (`▸`) and end-of-line characters (`¬`). Additionally, there's a key mapping to toggle the visualization of tabs and EOL characters using `<leader>l`.
 
 This `.vimrc` file provides various settings and key mappings to enhance your Vim experience. You can customize it further to suit your preferences.
+
+
+> [!NOTE] Note
+> Also checkout my other setup files -> [[Quadeer\|Home]]
+
