@@ -19,4 +19,4 @@
 <hr>
 
 > [!TIP] Revision
-> [[Untitled/DBMS RECAP\|DBMS RECAP]]
+> [[DBMS/DBMS RECAP\|DBMS RECAP]]
