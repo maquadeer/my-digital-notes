@@ -61,3 +61,47 @@ some common functions of a DBA include:
 9. **Backup and Disaster Recovery Planning:** Developing and maintaining a comprehensive disaster recovery plan that outlines steps to be taken in the event of data loss or system failure.
 10. **Troubleshooting and Problem Resolution:** DBAs investigate and resolve database-related issues, including data corruption, performance problems, and application errors.
 11. **Disaster Recovery Testing:** Periodically testing the organization's disaster recovery plan to ensure that data can be successfully restored in the event of a catastrophic failure.
+
+### 3. [Three schema arc aka levels of abstraction](https://www.javatpoint.com/dbms-three-schema-architecture)
+
+### 4. [Dbms-Architecture](https://www.javatpoint.com/dbms-architecture)
+
+# *Less Vital Topics*
+
+### 5. Diff DBs and their characs
+#### 1. Relational Database
+   - **Structured Data:** Relational databases store structured data in tables with predefined schemas, making them suitable for well-organized data.
+   - **ACID Compliance:** They adhere to ACID properties (Atomicity, Consistency, Isolation, Durability) to ensure data integrity and transaction reliability.
+   - **SQL Query Language:** Relational databases use SQL (Structured Query Language) for data manipulation and retrieval.
+   - **Strong Data Integrity:** They enforce data integrity through constraints like primary keys, unique keys, and foreign keys.
+   - **Support for Joins:** Relational databases support complex queries and table joins for data analysis.
+#### 2. NoSQL Database
+   - **Schema Flexibility:** NoSQL databases can store semi-structured or unstructured data, offering schema flexibility.
+   - **High Scalability:** Many NoSQL databases are designed for horizontal scalability, making them suitable for handling large volumes of data.
+   - **Variety of Data Models:** Different types of NoSQL databases include document stores, key-value stores, column-family stores, and graph databases, each optimized for specific data models.
+   - **Eventual Consistency:** Some NoSQL databases may prioritize eventual consistency over strong consistency, which can be suitable for certain applications.
+#### 3.Document Database:
+   - **Semi-Structured Data:** Document databases store data in semi-structured documents (e.g., JSON or XML) with flexible schemas.
+   - **High Read and Write Throughput:** They are often optimized for high read and write throughput, making them suitable for content management and real-time analytics.
+   - **Query by Content:** Document databases allow for querying data based on the content of documents.
+4. **Key-Value Store:**
+   - **Simple Data Model:** Key-value stores offer a simple data model where data is stored as key-value pairs.
+   - **High Scalability:** They excel at horizontal scaling and are used in caching, session management, and distributed applications.
+   - **Low Latency:** Key-value stores provide low-latency access to data due to their simple structure.
+5. **Column-Family Store:**
+   - **Columnar Storage:** Data is stored in columnar fashion, making it suitable for analytical workloads.
+   - **Scalability:** Column-family stores are highly scalable and often used for big data and time-series data storage.
+6. **Graph Database:**
+   - **Graph Data Model:** Graph databases are designed for storing and querying data with complex relationships, making them suitable for social networks, recommendation engines, and fraud detection.
+   - **Efficient Relationship Queries:** They excel at traversing and querying graph-like structures.
+7. **In-Memory Database:**
+   - **Data in RAM:** In-memory databases store data in system memory (RAM), providing extremely fast read and write access.
+   - **Low Latency:** They are used for applications requiring low-latency data access, such as real-time analytics and caching.
+8. **Time-Series Database:**
+   - **Time-Ordered Data:** Time-series databases are optimized for handling data with timestamps, making them suitable for IoT data, monitoring, and financial applications.
+   - **Efficient Time-Based Queries:** They provide efficient means of querying data based on time intervals.
+9. **Spatial Database:**
+   - **Geospatial Data:** Spatial databases are designed to store and query geospatial data, such as maps and location-based information.
+   - **Support for Spatial Operations:** They offer specialized spatial operations and indexing for geospatial data analysis.
+10. **NewSQL Database:**
+    - **Scalability and ACID Compliance:** NewSQL databases aim to combine the scalability of NoSQL databases with ACID compliance, making them suitable for high-transaction-rate applications.
