@@ -17,6 +17,3 @@
 2. [[setup/cpp 14 sublime linux setup\|c++ linux sublime setup]]
 3. [[setup/vim setup\|My personal Vim setup]]
 <hr>
-
-> [!TIP] Revision
-> [[DBMS/DBMS RECAP\|DBMS RECAP]]
