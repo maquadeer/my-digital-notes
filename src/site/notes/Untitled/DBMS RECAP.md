@@ -4,8 +4,12 @@
 
 - [[Untitled/DBMS RECAP#1. DBMS, ITS PURPOSE AND ADVANTAGES\|1. DBMS, ITS PURPOSE AND ADVANTAGES]]
 - [[Untitled/DBMS RECAP#2. Functions of a DBA\|2. Functions of a DBA]]
-
-
+- [[Untitled/DBMS RECAP#3. [Three schema arc aka levels of abstraction](https://www.javatpoint.com/dbms-three-schema-architecture)\|3. [Three schema arc aka levels of abstraction](https://www.javatpoint.com/dbms-three-schema-architecture)]]
+- [[Untitled/DBMS RECAP#4. [Dbms-Architecture](https://www.javatpoint.com/dbms-architecture)\|4. [Dbms-Architecture](https://www.javatpoint.com/dbms-architecture)]]
+- [[Untitled/DBMS RECAP#5. Diff DBs and their characs\|5. Diff DBs and their characs]]
+	- [[Untitled/DBMS RECAP#5. Diff DBs and their characs\|1. Relational Database]]
+	- [[Untitled/DBMS RECAP#5. Diff DBs and their characs\|2. NoSQL Database]]
+	- [[Untitled/DBMS RECAP#5. Diff DBs and their characs\|3.Document Database:]]
 # Unit 1
 ### 1. DBMS, ITS PURPOSE AND ADVANTAGES
 A Database Management System (DBMS) is software that manages, organizes, and controls access to a database. Its primary purpose is to provide an efficient and structured way to store, retrieve, and manipulate data. Here are the main purposes and advantages of using a DBMS:
