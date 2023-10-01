@@ -109,3 +109,12 @@ some common functions of a DBA include:
    - **Support for Spatial Operations:** They offer specialized spatial operations and indexing for geospatial data analysis.
 10. **NewSQL Database:**
     - **Scalability and ACID Compliance:** NewSQL databases aim to combine the scalability of NoSQL databases with ACID compliance, making them suitable for high-transaction-rate applications.
+
+#### 6. DataBase system
+In a Database Management System (DBMS), the storage manager is a critical component responsible for managing the storage of data in a database. It handles the low-level details of storing and retrieving data efficiently. The storage manager is typically composed of several key components:
+
+1. **Buffer Manager:** The buffer manager is responsible for managing a buffer pool in memory. It caches a subset of data from the database on disk to reduce the need for frequent disk I/O operations. When data is requested, the buffer manager checks if it is in the buffer pool. If not, it reads the data from disk into the buffer pool. This mechanism helps improve data access speed.
+2. **File Manager:** The file manager interacts directly with the operating system to read and write data from and to disk. It handles file I/O operations, such as opening, closing, reading, and writing data files. It also ensures data consistency and durability by coordinating with the buffer manager to write modified data back to disk.
+3. **Transaction Manager:** While not a direct component of the storage manager, the transaction manager interacts closely with it. It ensures that changes made to the database by transactions are properly managed and that the database remains in a consistent state. This involves coordinating with the buffer manager to ensure that changes made by transactions are written to disk (commit) or rolled back if necessary.
+4. **Authorization Manager:** authorization and integrity management are essential components that ensure data security, access control, and data integrity. These components play a crucial role in maintaining the accuracy, confidentiality, and reliability of the data stored in the database.
+**image of db system** [DB ENVIRONMENT](https://www.w3schools.in/wp-content/uploads/2016/08/Database-System-Environment.png?ezimgfmt=rs%3Adevice%2Frscb43-1)
